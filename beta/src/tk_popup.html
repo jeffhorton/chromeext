@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>TestKick Recorder</title>
+    <script type="text/javascript" src="libs/jquery.min.js"></script>
+    <script type="text/javascript" src="tkpn.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/testkick.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome-4.0.1.min.css" />
+
+</head>
+<body>
+    <div id="testkick_panel">
+        <div class="header">
+            <div class="logo"></div>
+            <h1>Testkick</h1>
+        </div>
+        <div class="panel_main">
+            <div class="panel_section button-group recordstop_buttons notnew">
+                <span class="group-item can-record"><button id="record"><i class="fa fa-dot-circle-o"></i> Begin Recording</button></span>
+                <span class="group-item can-stop"><button id="stop"><i class="fa fa-stop"></i> Stop Recording</button></span>
+            </div>
+            <div class="panel_section button-group new_installation">
+                <span class="group-item"><button id="enter_key"><i class="fa fa-key"></i> Enter Remote Access Key</button></span>
+                <span class="group-item"><button id="get_key"><i class="fa fa-user"></i> Signup for Key</button></span>
+            </div>
+            <div class="panel_section button-group save_buttons notnew">
+                <span class="group-item"><span class="notification-count" id="recordsCount">0</span> Actions</span>
+                <span class="group-item can-save"><button id="save"><i class="fa fa-save"></i> Save To Server</button></span>
+                <span class="group-item can-save"><button id="clear"><i class="fa fa-eraser"></i> Clear Recording</button></span>
+            </div>
+        </div>
+        <div class="footer button-group">
+            <span class="group-item"><button id="open_server"><i class="fa fa-external-link"></i> Open Testkick Server</button></span>
+            <span class="group-item"><button id="help"><i class="fa fa-question"></i> Tools & Help </button></span>
+            <span class="group-item"><button id="options"><i class="fa fa-cog"></i> Options</button></span>
+        </div>
+    </div>
+</body>
+</html>

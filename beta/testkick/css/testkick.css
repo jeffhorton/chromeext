@@ -1,0 +1,62 @@
+body {
+    font-family: source-sans-pro, sans-serif;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    background:lightgray;
+    
+}
+#testkick_panel {
+    background: lightgray;
+    width:220px;
+    margin-bottom:5px;
+}
+.header {
+    width:100%;
+    background:blue;
+    margin-bottom:5px;
+    text-align:center;
+    color:white;
+}
+.panel_main {
+    width:100%;
+    min-height:100px;
+    margin-bottom:5px;
+    background:gray;
+    text-align:center;
+}
+.group-item {
+    padding:5px;
+    shadow:1px #11111;
+    margin: 0 auto;
+    display:block;
+}
+button {
+    padding:5px;
+    shadow:1px #11111;
+    width: 190px;
+    margin: 0 auto;
+    display: block;
+    text-align:center;
+    cursor:pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.footer {
+    width:100%;
+}
+.button-group {
+    width:100%;
+    background:gray;
+}
+
+.notification-count {
+    padding: 0.15em 0.5em 0.2em;
+    border-radius: 2px;
+    background-color: #ec514e;
+    color: #fff;
+    margin-left:11px;
+}
